@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Insertando la última versión de css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Insertando los iconos para el bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Footer styles */
+        .oscuro-blanco {
+          background-color: #eccccc; /* Change background color to your preference */
+          color: #0e0d0d; /* Change text color to your preference */
+          padding: 0; /* Add some padding for visual separation */
+        }
+      </style>
+    <title>Document</title>
+</head>
+
+<body>
+    
+    
+   <!--Creamos la primera fila-->
+    <div class="row bg-info">
+        <!--Columna 1 con Celda en blanco-->
+        <div class="col-sm-1"></div>
+        <!--Columna 2, celda para el logo-->
+        <div class="col-sm-1">
+            <img src="https://www.creativefabrica.com/wp-content/uploads/2022/11/22/Stunning-Beautiful-Brown-Skin-Elf-47864341-1.png"
+                class="rounded-circle" alt="BELLAFRIKANA" width="50px">
+        </div>
+        <!--Columna 3 con Celda en blanco-->
+        <div class="col-sm-1"></div>
+        <!--Fusiono columnas 4 a la 8 para el titulo de la página-->
+        <div class="col-sm-5">
+            <h1 class="text-center "> BELLAFRIKANA </h1>
+        </div>
+        <!--Columna 9 con Celda en blanco-->
+        <div class="col-sm-1"></div>
+        <!--Columna 10, celda para el icono del menu-->
+        <div class="col-sm-1">
+            <div class="dropdown">
+                <button type="button" class="btn btn-bg-primary dropdown-toggle" data-bs-toggle="dropdown">
+                    <i class="bi bi-list" style="font-size: 100%;"></i>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./productos.html">catalogo</a></li>
+                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Columna 11, celda para el icono del salida-->
+        <div class="col-sm-1">
+            <i class="bi bi-box-arrow-left bg-info" style="font-size: 150%;"></i>
+        </div>
+        <!--Columna 12 con Celda en blanco-->
+        <div class="col-sm-1"></div>
+    </div>
+
+    <!--Insertamos la segunda fila-->
+    <div class="row">
+        <!--Columnas 1 a la 3 fusionadas y vacias-->
+        <div class="col-sm-3"></div>
+        <!--Colocamos 6 columnas para el carrusel-->
+        <div class="col-sm-5">
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner ">
+                    <div class="carousel-item active" >
+                        <img src="https://thumbs.dreamstime.com/b/beauty-face-makeup-woman-brush-to-apply-luxury-skincare-anti-aging-facial-cosmetics-product-wellness-beauty-face-259830742.jpg" 
+                        alt="Los Angeles" class="d-block w-100"> 
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcde.3.elcomercio.pe%2Fima%2F0%2F1%2F6%2F6%2F4%2F1664757.jpg&f=1&nofb=1&ipt=b918d53d13968ff626c930b0442637abd58df4d5e64c0a73c98ca961eff7ef49&ipo=images"
+                            alt="Chicago" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://odelebeauty.com/cdn/shop/articles/BH11_LEk.jpg?v=1695305264"
+                         alt="New York" class="d-block w-100">
+                      </div>
+                
+                    <div class="carousel-item">
+                        <img src="https://www.jabonde.com/wp-content/uploads/2019/10/Productos-de-Belleza.jpg" 
+                        alt="Chicago" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://folhago.com.br/blogs/decor-dicas/wp-content/uploads/2022/03/Design-sem-nome-2022-03-28T175159.128.jpg" alt="New York" class="d-block w-100">
+                      </div>
+                
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+        <!--Columnas 10 a la 12 fusionadas y vacias-->
+        <div class="col-sm-3"></div>
+    </div>
+
+
+    <!--Tarjetas de satisfacción cliente -->
+    <div class="row">
+        <!-- celda vacia-->
+        <div class="col-sm-1"></div>
+        <!-- Celdas 2 a la 4 se fucionan para una tarjeta-->
+        <div class="col-sm-3">
+            <!--Coloco los testimonios en tarjetas-->
+            <div class="card" style="width: 100%;">
+                <img src="https://i.pinimg.com/originals/7d/da/6a/7dda6a2395a4414ae2588f64e368baeb.jpg"
+                    class="card-img-bottom" alt="mensaje">
+
+                <div class="card-body">
+                    <h3 class="card-title">ruby hernandez </h3>
+                    <p class="card-text">
+                        Gracias a BELLAFRIKANA, ahora mi piel es mucha más sana, mi cabello esta creciendo
+                         muy rapidamente y aumentando su grosor, me siento muy feliz con estos productos no los cambio y 
+                         lo recomiendo mucho.
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- celda vacia-->
+        <div class="col-sm-1"></div>
+        <!-- Celdas 6 a la 7 se fucionan para una tarjeta-->
+        <div class="col-sm-2"><!--Coloco los testimonios en tarjetas-->
+            <div class="card" style="width: 100;">
+                <img src="https://media.istockphoto.com/id/920908176/es/foto/mujer-de-cliente-en-la-tienda-de-maquillaje.jpg?s=612x612&w=0&k=20&c=8dWTADv2Cry0GvwiuuhMnnZ7o4YQRb5I1G44vJ8zFr4="
+                    class="card-img-bottom" alt="mensaje">
+
+                <div class="card-body">
+                    <h3 class="card-title">Dalia Bermudez </h3>
+                    <p class="card-text">
+                      me encantan sus productos, porque cada dia mi cabello y piel se ven mas hermosas. amo este cambio
+                      tan espectacular. por eso no dudo de ir a comprar todos sus producto y maquillajes.
+                    </p>
+                </div>
+            </div></div>
+        <!-- celda vacia-->
+        <div class="col-sm-1"></div>
+        <!-- Celdas 9 a la 11 se fucionan para una tarjeta-->
+        <div class="col-sm-3">
+            
+            <!--Coloco los testimonios en tarjetas-->
+            <div class="card" style="width: 100%;">
+                <img src="https://www.nydailynews.com/wp-content/uploads/migration/2014/12/15/DBHV2MSXI3JFHK5N3C5NM2ZQSQ.jpg"
+                    class="card-img-bottom" alt="mensaje">
+
+                <div class="card-body">
+                    <h3 class="card-title">Carmen viveros </h3>
+                    <p class="card-text">
+                        me encanta la atencion que me brindaron y sus productos me han servido demasiado los amo 
+                        y gracias por su senciles y amabilidad que me han dado desde que el dia que las conoci 
+                        gasta la fecha de hoy . excelente
+                    </p>
+                </div></div>
+<div class="col-sm-1"></div>
+<div class="col-sm-1"></div>
+
+
+
+
+
+
+    
+
+
+<div class="row oscuro-blanco fixed-bottom">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-3">
+      @YULIETRUIZ CANDELARIA 2024
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-1">
+      <i class="bi bi-facebook"></i>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-1">
+      <i class="bi bi-whatsapp"></i>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-1">
+      <i class="bi bi-instagram"></i>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+
+
+    
+    <!-- Insertando la última versión de javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+   
+</html>
